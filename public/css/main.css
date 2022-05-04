@@ -1,0 +1,107 @@
+.back-btn {
+  position: relative;
+  left: 10px;
+}
+
+.dltbtn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: monospace;
+  color: red;
+  font-size: 17px;
+  background: #fff;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.dltbtn:hover {
+  background: #fff;
+  text-decoration: none;
+}
+
+.box {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.box-2 {
+  width: 50%;
+  margin: auto;
+}
+
+.box-3 {
+  width: 80%;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    text-align: justify;
+  }
+
+  .box {
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .box-2 {
+    width: 85%;
+    margin: auto;
+  }
+
+  .box-3 {
+    width: 90%;
+  }
+
+  footer p {
+    text-align: center;
+  }
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.m-text {
+  font-family: monospace;
+}
+
+.navbar {
+  background-color: #9ADCFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a {
+  font-family: monospace;
+  font-size: 1rem;
+  margin: auto 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #4B7BE5 !important;
+}
+
+footer {
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+  right: 10px;
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: monospace;
+  margin-top: 25px;
+}
